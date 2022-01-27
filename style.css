@@ -1,0 +1,84 @@
+.user-card {
+    border: solid 1px grey;
+    width: 750px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+.banner {
+    /* border: solid red 1px; */
+    height: 150px;
+    background-color: #15c3e2;
+}
+
+.lower-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-pic{
+    height: 125px;
+    width: 125px;
+    margin-left: 4%;
+    position: relative;
+    margin-top: -10%;
+}
+
+.user-name {
+    margin-left: 2%;
+}
+
+.location {
+    display: flex;
+    align-content: center;
+    /* border: solid red 1px; */
+    margin-left: 2%;
+
+}
+
+.mapmarker {
+    width: 25px;
+    height: 35px;
+    display: inline-block;
+    margin: 2%;
+
+}
+
+.city {
+    display: inline-block;
+}
+
+.user-description {
+    /* border: solid greenyellow 1px; */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-left: 2%;
+
+}
+
+h4 {
+    /* border: red 1px solid; */
+    display: inline-block;
+    width: 300px;
+    margin-left: 2%;
+}
+
+.settings-row {
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    align-content: center;
+}
+.gear {
+    height: 30px;
+}
+
+a {
+    display: inline-block;
+    margin-left: 1%;
+    font-size: large;
+    color: #278bce;
+    font-weight: 600;
+}
