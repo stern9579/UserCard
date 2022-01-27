@@ -23,6 +23,8 @@
     margin-left: 4%;
     position: relative;
     margin-top: -10%;
+    border: #15c3e2 solid 5px;
+    border-radius: 50%;
 }
 
 .user-name {
